@@ -9,6 +9,7 @@ from venv_web_page.Util.login_utils import LoginUtils
 # In with block Creating a Webpage_task_11.txt using open method
 # and setting it to write mode
 # writing the text to the file
+#marked as smoke - this check the flow from home to dashboard page.
 
 @pytest.mark.smoke
 def test_extracting_text_from_webpage(driver_method):
