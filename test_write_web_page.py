@@ -1,0 +1,21 @@
+import pytest
+from selenium.webdriver.common.by import By
+
+from venv_web_page.Util.login_utils import LoginUtils
+
+
+@pytest.mark.smoke
+def test_extracting_text_from_webpage(driver_method):
+
+    util = LoginUtils()
+    util.verify_user_login(driver_method)
+    driver = driver_method
+
+    print(driver.title)
+
+    print(driver.current_url)
+
+    text= driver.find_element(By.TAG_NAME,'body').text
+
+    with open("Webpage_task_11.txt",'w') as file:
+        file.write(text)
