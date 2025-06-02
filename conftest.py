@@ -1,9 +1,6 @@
 import pytest
 from selenium import webdriver
 
-# Using fixture to preapre the test environment (to open the browser and use it)
-# reusable purpose
-
 @pytest.fixture
 def driver_method():
 
@@ -12,3 +9,6 @@ def driver_method():
     driver.get("https://www.saucedemo.com/")
     
     return driver
+
+# Using fixture to preapre the test environment (to open the browser and use it)
+# reusable purpose
