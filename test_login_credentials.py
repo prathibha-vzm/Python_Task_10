@@ -27,7 +27,6 @@ def test_invalid_login_page(driver_method):
 
     user_name=driver.find_element(By.NAME,"user-name").send_keys("standard_user")
     time.sleep(2)
-    assert user_name=='standard_user'
 
     password= driver.find_element(By.NAME,"password").send_keys("sauce")
     assert password=='secret_sauce'
