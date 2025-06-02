@@ -2,6 +2,9 @@ import time
 
 from selenium.webdriver.common.by import By
 
+# Under a class creating a method to log in the webpage - reusable purpose
+# Used CSS Selector to fetch the name locator for password element
+
 class LoginUtils:
     @staticmethod
     def verify_user_login(driver_method):
