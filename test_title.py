@@ -1,8 +1,8 @@
-import time
 
+#Importing Packages 
+import time
 import pytest
 from selenium.webdriver.common.by import By
-
 from venv_web_page.Util.login_utils import LoginUtils
 
 #Positive - test case -> Fetch the title from the web page
