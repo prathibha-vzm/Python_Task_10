@@ -1,13 +1,13 @@
-
 #Importing Packages 
+# Importing LoginUtils to access the method from the class
 import time
 import pytest
 from selenium.webdriver.common.by import By
 from venv_web_page.Util.login_utils import LoginUtils
 
 #Positive - test case -> Fetch the title from the web page
-#Fetching the title using title and storing it in a variable 
-#checking the actual result using assert
+# 22: Fetching the title using title and storing it in a variable 
+# 30: checking the actual result using assert
 
 @pytest.mark.sanity
 def test_valid_title_page(driver_method):
@@ -31,8 +31,9 @@ def test_valid_title_page(driver_method):
 
 
 #Negative - test case -> Fetch the title from the web page 
-#Fetching the title using title and storing it in a variable 
-#checking the actual result using assert with invalid title 
+# 41 & 42 Used the LoginUtils to reduce the line of coding to Login the webpage
+# 46: Fetching the title using title and storing it in a variable 
+# 50: checking the actual result using assert with invalid title 
 
 @pytest.mark.regression
 def test_invalid_title_page(driver_method):
