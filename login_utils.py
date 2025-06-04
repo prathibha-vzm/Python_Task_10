@@ -18,5 +18,5 @@ class LoginUtils:
         time.sleep(2)
 
 
-# Under a class creating a method to log in the webpage - reusable purpose
-# Used CSS Selector to fetch the name locator for password element
+# 8-18:  Under a class creating a method to log in the webpage - reusable purpose
+# 14: Used CSS Selector to fetch the name locator for password element
