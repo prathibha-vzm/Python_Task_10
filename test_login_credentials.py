@@ -6,9 +6,9 @@ from selenium.webdriver.common.by import By
 
 
 # Positive Test case -> Valid Login Credentials
-# Using Name locator to input username and password
-# Using ID locator to click the web element
-# Using "assert" for URL to check the successful login
+# 19 & 23 :Using Name locator to input username and password
+# 25: Using ID locator to click the web element
+# 29: Using "assert" for URL to check the successful login
 
 
 @pytest.mark.sanity
