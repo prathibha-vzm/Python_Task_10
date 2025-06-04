@@ -12,5 +12,5 @@ def driver_method():
     
     return driver
 
-# Using fixture to preapre the test environment (to open the browser and use it)
+# 6: Using fixture to preapre the test environment (to open the browser and use it)
 # reusable purpose
