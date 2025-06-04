@@ -1,5 +1,6 @@
-import time
+#Importing packages
 
+import time
 import pytest
 from selenium.webdriver.common.by import By
 
